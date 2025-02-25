@@ -1,0 +1,27 @@
+proxies:
+  - name: (sodek) [Trojan - ws] TLS âœ…
+    server: space.byu.id
+    port: 443
+    type: trojan
+    password: koNFsmn5JJ_f4SkS1UesJg
+    skip-cert-verify: true
+    sni: iya.biruuuuu.web.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: iya.biruuuuu.web.id
+    udp: true
+  - name: (ango9) [Trojan - ws] TLS âœ…
+    server: space.byu.id
+    port: 443
+    type: trojan
+    password: 79hINJr9DaJ45mDX4dfuxA
+    skip-cert-verify: true
+    sni: id-sengked.aixxycode.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: id-sengked.aixxycode.id
+    udp: true
